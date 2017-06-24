@@ -14,5 +14,6 @@ for s in wb.sheets():
             values.append(s.cell(row,col).value)
         print values
         x_data1.append(values[0])
+
         y_data1.append(values[1])
 
